@@ -1,5 +1,5 @@
-public class ShippingCostCalculator implements FurnitureVisitor {
-    private double distance;
+public class ShippingCostCalculator implements ShippingCostVisitor {
+    private double distance; 
 
     public ShippingCostCalculator(double distance) {
         this.distance = distance;

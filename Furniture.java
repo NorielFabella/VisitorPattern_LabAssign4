@@ -1,3 +1,3 @@
 public interface Furniture {
-    double accept(FurnitureVisitor visitor);
+    double accept(ShippingCostVisitor visitor);
 }
